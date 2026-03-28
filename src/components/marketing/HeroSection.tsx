@@ -4,7 +4,7 @@ import { Container } from "./Container";
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-amber-50/80 to-stone-50 pb-16 pt-12 sm:pb-24 sm:pt-16">
+    <section className="relative overflow-hidden bg-linear-to-b from-amber-50/80 to-stone-50 pb-16 pt-12 sm:pb-24 sm:pt-16">
       <Container>
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-12">
           <div>
@@ -33,7 +33,7 @@ export function HeroSection() {
               </Link>
             </div>
           </div>
-          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-xl ring-1 ring-stone-200/60">
+          <div className="relative aspect-4/3 w-full overflow-hidden rounded-2xl shadow-xl ring-1 ring-stone-200/60">
             <Image
               src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&q=80"
               alt="Fabric and tailoring workspace"
