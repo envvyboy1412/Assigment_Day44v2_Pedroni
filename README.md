@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧵 Website Konveksi
 
-## Getting Started
+Aplikasi web untuk bisnis konveksi dengan landing page produk dan dashboard admin untuk mengelola data (CRUD).
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Fitur
+
+* Landing page produk
+* Login authentication
+* Admin dashboard (CRUD produk)
+
+---
+
+## 🧰 Tech Stack
+
+* Next.js (React)
+* Tailwind CSS
+* Supabase (Database & Auth)
+
+---
+
+## ⚙️ Setup
+
+1. Install:
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Jalankan:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🔑 Environment
 
-To learn more about Next.js, take a look at the following resources:
+Buat `.env.local`:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🗄️ Database
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Jalankan file:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+/supabase/schema.sql
+```
+
+di Supabase SQL Editor.
+
+---
+
+## 🔗 Route
+
+* `/` → Landing page
+* `/login` → Login
+* `/admin` → Dashboard
+
+---
+
+🔐 Demo Admin
+
+Gunakan akun berikut untuk login:
+
+Email: admin@gmail.com
+Password: admin123
+
+---
