@@ -20,8 +20,8 @@ export function SiteFooter() {
             <Link href="/#contact" className="text-stone-600 hover:text-amber-800">
               Contact
             </Link>
-            <Link href="/login" className="text-stone-600 hover:text-amber-800">
-              Admin login
+            <Link href="https://github.com/envvyboy1412/Assigment_Day44v2_Pedroni" className="text-stone-600 hover:text-amber-800">
+              Github Project
             </Link>
           </div>
         </div>
